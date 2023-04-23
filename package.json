@@ -1,0 +1,27 @@
+{
+  "name": "projectslavkostevic",
+  "version": "1.0.0",
+  "description": "Slavko's CMPS415 Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelegendmaster64/ProjectSlavkoStevic.git"
+  },
+  "author": "Slavko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/thelegendmaster64/ProjectSlavkoStevic/issues"
+  },
+  "homepage": "https://github.com/thelegendmaster64/ProjectSlavkoStevic#readme"
+}
+
