@@ -1,3 +1,8 @@
+const { MongoClient } = require("mongodb");
+
+// The uri string must be the connection string for the database (obtained on Atlas).
+const uri = "mongodb+srv://michealemulder:Michael51099$@mmulderdb.plaugdj.mongodb.net/?retryWrites=true&w=majority";
+
 const express = require('express');
 const bodyParser=require('body-parser');
 const app = express();
@@ -9,6 +14,7 @@ console.log('Server started at http://localhost:' + port);
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
 
 // GET All tickets
 
