@@ -72,6 +72,28 @@ app.get('/rest/ticket/:id', function(req, res) {
     });
 });
 
+
+
+// DELETE endpoint
+app.delete('/rest/ticket/:id', (req, res) => {
+  const ticketId = req.params.id;
+  // code to delete the ticket record with the given ID
+  res.send(`Deleted ticket record with ID ${ticketId}`);
+});
+
+// PUT endpoint
+app.put('/rest/ticket/:id', (req, res) => {
+  const ticketId = req.params.id;
+  const updatedTicket = req.body;
+  // code to update the ticket record with the given ID using the data in updatedTicket
+  res.send(`Updated ticket record with ID ${ticketId}`);
+});
+
+// start the server
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
 // A POST request
 
 app.post('/rest/ticket/', function(req, res) {
