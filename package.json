@@ -1,16 +1,16 @@
 {
-  "name": "projectslavkostevic",
+  "name": "mulderproject",
   "version": "1.0.0",
-  "description": "Slavko's CMPS415 Project",
+  "description": "Micheale's CMPS415 Project",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thelegendmaster64/ProjectSlavkoStevic.git"
+    "url": "git+https://github.com/michealemulder/phase-2.git"
   },
-  "author": "Slavko",
+  "author": "Mulder",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
@@ -20,8 +20,8 @@
     "node": ">=14"
   },
   "bugs": {
-    "url": "https://github.com/thelegendmaster64/ProjectSlavkoStevic/issues"
+    "url": "https://github.com/michealemulder/phase-2/issues"
   },
-  "homepage": "https://github.com/thelegendmaster64/ProjectSlavkoStevic#readme"
+  "homepage": "https://github.com/michealemulder/phase-2#readme"
 }
 
